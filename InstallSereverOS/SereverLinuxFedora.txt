@@ -1,0 +1,18 @@
+1. Обновление списка пакетов:
+    1.1 Открыть терминал
+    1.2 Выполнить команду: sudo apt update
+    1.3 Выполнить команду: sudo apt upgrade -y
+
+2. Установка Apache:
+    2.1 Открыть терминал
+    2.2 Выполнить команду: sudo apt install apache2 -y
+
+3. Запуск и настройка службы Apache:
+    3.1 Открыть терминал
+    3.2 Выполнить команду: sudo systemctl start apache2
+    3.3 Выполнить команду: sudo systemctl enable apache2
+
+4. Проверка состояния службы Apache:
+    4.1 Открыть терминал
+    4.2 Выполнить команду: sudo systemctl status apache2
+    (Ожидаем отображение текста в терминале: active (running))
